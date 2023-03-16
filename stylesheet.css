@@ -1,0 +1,148 @@
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1170px;
+  margin: 0px auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+header {
+  height: auto;
+  width: 100%;
+  background-color: rgba(34, 49, 52, 0.9);
+  position: fixed;
+  top: 0;
+  z-index: 10;
+}
+
+.header-left {
+  display: flex;
+  align-items: center;
+}
+
+.header-left a {
+  padding: 0 25px;
+  color: white;
+  line-height: 65px;
+  text-decoration: none;
+  /* float: left; */
+}
+
+.top-wrapper {
+  padding: 50px 0 50px 0;
+  background-size: cover;
+  color: white;
+}
+
+.top-wrapper h1 {
+  color: black;
+  font-size: 100px;
+  margin-bottom: 0px;
+}
+.top-wrapper h3 {
+  color: black;
+  font-size: 50px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: normal;
+}
+
+.top-wrapper img {
+  width: 15%;
+}
+
+.about-wrapper {
+  width: 100%;
+  background-color: rgba(34, 49, 52, 0.1);
+}
+.about-wrapper p {
+  text-align: center;
+}
+
+.proyek-wrapper {
+  height: 100%;
+  padding-bottom: 50px;
+  background-color: #f7f7f7;
+  /* Ubah property text-align ke center */
+  text-align: center;
+}
+.proyek {
+  display: inline-block;
+  width: 25%;
+  margin: 0px 10px;
+}
+
+.proyek-img {
+  position: relative;
+}
+.proyek-img img {
+  width: 100%;
+  position: relative;
+}
+
+.contact-wrapper {
+  width: 100%;
+  background-color: rgba(34, 49, 52, 0.1);
+}
+
+.input input {
+  width: 100%;
+  height: 50px;
+  margin-bottom: 30px;
+  border-radius: 10px;
+  border: 20px;
+}
+.input input::placeholder {
+  padding-left: 10px;
+  vertical-align: top;
+}
+.input input[type="text"] {
+  width: 100%;
+  height: 100px;
+  margin-bottom: 30px;
+  border-radius: 10px;
+  border: 20px;
+}
+.btn {
+  padding-bottom: 20px;
+}
+.send {
+  border: 0px;
+  height: 35px;
+  width: 200px;
+  border-radius: 8px;
+  background-color: rgba(255, 230, 0, 0.5);
+}
+footer {
+  height: auto;
+  width: 100%;
+  background-color: rgba(34, 49, 52, 0.9);
+  color: white;
+  top: 0;
+  z-index: 10;
+  margin-top: 0;
+  float: left;
+}
+
+.footer-left {
+  padding-left: 25px;
+  float: left;
+}
+
+.footer-right {
+  padding: 30px;
+  float: right;
+}
+
+.footer-right a {
+  display: block;
+  padding-bottom: 15px;
+  color: white;
+  text-decoration: none;
+}
